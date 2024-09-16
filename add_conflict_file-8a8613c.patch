@@ -1,0 +1,28 @@
+From 8a8613cbe6578fc0635f26d00119525d5e31a8c9 Mon Sep 17 00:00:00 2001
+From: Anders Borum <anders@workingcopy.app>
+Date: Sat, 4 May 2024 10:13:09 +0200
+Subject: [PATCH] add conflict file
+
+---
+ examples/conflict.txt | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 examples/conflict.txt
+
+diff --git a/examples/conflict.txt b/examples/conflict.txt
+new file mode 100644
+index 0000000..ba20eab
+--- /dev/null
++++ b/examples/conflict.txt
+@@ -0,0 +1,8 @@
++Sometimes files cannot be automatically 
++merged because your local changes conflict
++with the changes from the commits merged.
++
++Use the Resolve tool to make this easier.
++You can handle several files at once just
++dragging in the parts of the file you want
++to keep and dragging out to discard.
+\ No newline at end of file
+--
+Working Copy 6.1.1
+
